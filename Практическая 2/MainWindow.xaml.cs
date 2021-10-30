@@ -81,5 +81,10 @@ namespace Практическая_2
         {
             MessageBox.Show("Выполнил Дударев И. В. ИСП-34.", "О программе", MessageBoxButton.OK, MessageBoxImage.Information);
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
